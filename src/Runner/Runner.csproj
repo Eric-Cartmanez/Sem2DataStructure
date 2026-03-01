@@ -9,12 +9,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tasks.Common\Tasks.Common.csproj" />
+    <ProjectReference Include="..\Tasks\Task01.Kaleidoscope\Task01.Kaleidoscope.csproj" />
     <ProjectReference Include="..\Tasks\Task02.Nword\Task02.Nword.csproj" />
-    <ProjectReference Include="..\Tasks\Task03.BestTeacher\Task03.BestTeacher.csproj" />
-    <ProjectReference Include="..\Tasks\Task04.CombArray\Task04.CombArray.csproj" />
-    <ProjectReference Include="..\Tasks\Task05.NegativeShift\Task05.NegativeShift.csproj" />
+    <ProjectReference Include="..\Tasks\Task03.NegativeShift\Task03.NegativeShift.csproj" />
+    <ProjectReference Include="..\Tasks\Task04.BestTeacher\Task04.BestTeacher.csproj" />
+    <ProjectReference Include="..\Tasks\Task05.CombArray\Task05.CombArray.csproj" />
     <ProjectReference Include="..\Tasks\Task06.Find2DArray\Task06.Find2DArray.csproj" />
-    <ProjectReference Include="..\Tasks\Task07.Kaleidoscope\Task07.Kaleidoscope.csproj" />
   </ItemGroup>
 
 </Project>

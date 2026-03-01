@@ -1,6 +1,6 @@
 using Tasks.Common;
 
-namespace Task04.CombArray;
+namespace Task05.CombArray;
 
 public interface ICombArraySolution : ISolution
 {

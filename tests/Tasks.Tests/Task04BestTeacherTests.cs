@@ -1,8 +1,8 @@
-using Task03.BestTeacher;
+using Task04.BestTeacher;
 
 namespace Tasks.Tests;
 
-public class Task03BestTeacherTests
+public class Task04BestTeacherTests
 {
     public static IEnumerable<object[]> GetSolutions()
     {

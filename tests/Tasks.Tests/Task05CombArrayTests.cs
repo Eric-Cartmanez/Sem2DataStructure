@@ -1,8 +1,8 @@
-using Task04.CombArray;
+using Task05.CombArray;
 
 namespace Tasks.Tests;
 
-public class Task04CombArrayTests
+public class Task05CombArrayTests
 {
     public static IEnumerable<object[]> GetSolutions()
     {

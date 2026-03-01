@@ -1,6 +1,6 @@
 using Tasks.Common;
 
-namespace Task07.Kaleidoscope;
+namespace Task01.Kaleidoscope;
 
 public interface IKaleidoscopeSolution : ISolution
 {

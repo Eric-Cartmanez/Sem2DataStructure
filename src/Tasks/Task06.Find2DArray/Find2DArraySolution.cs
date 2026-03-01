@@ -7,24 +7,31 @@ public class Find2DArraySolution : IFind2DArraySolution
 {
     public void Run()
     {
-        Console.WriteLine("Введите размеры массива (строки столбцы):");
-        var dims = Console.ReadLine()!.Split();
-        int rows = int.Parse(dims[0]);
-        int cols = int.Parse(dims[1]);
+        int[,] array = {
+            { 2,  6,  7,  9,  9, 14},
+            {18, 20, 26, 26, 29, 40},
+            {44, 47, 50, 51, 55, 62}
+        };
 
-        var array = new int[rows, cols];
-        Console.WriteLine("Введите элементы (отсортированные по неубыванию построчно):");
+        int rows = array.GetLength(0);
+        int cols = array.GetLength(1);
+        Console.WriteLine($"Массив {rows}×{cols} (отсортирован по строкам):");
         for (int i = 0; i < rows; i++)
-            for (int j = 0; j < cols; j++)
-                array[i, j] = int.Parse(Console.ReadLine()!);
+        {
+            var row = Enumerable.Range(0, cols).Select(j => array[i, j]);
+            Console.WriteLine("  [ " + string.Join(", ", row.Select(v => $"{v,2}")) + " ]");
+        }
+        Console.WriteLine();
+        Console.WriteLine("Задача: бинарный поиск в 2D-массиве");
+        Console.WriteLine();
 
-        Console.WriteLine("Введите искомое значение:");
-        int value = int.Parse(Console.ReadLine()!);
-
-        if (FindNumber(array, value, out int[] idx))
-            Console.WriteLine($"Найдено: [{idx[0]}, {idx[1]}]");
-        else
-            Console.WriteLine("Не найдено.");
+        foreach (int value in new[] { 2, 18, 29, 62, 42, 1 })
+        {
+            if (FindNumber(array, value, out int[] idx))
+                Console.WriteLine($"  Ищем {value,3} → найдено по индексам [{idx[0]}, {idx[1]}]");
+            else
+                Console.WriteLine($"  Ищем {value,3} → не найдено");
+        }
     }
 
     // Представляем 2D-массив как плоский 1D и применяем бинарный поиск.

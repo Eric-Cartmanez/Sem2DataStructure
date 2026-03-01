@@ -1,8 +1,8 @@
 using Tasks.Common;
 
-namespace Task04.CombArray;
+namespace Task05.CombArray;
 
-[Task(4, "Комбинированный массив")]
+[Task(5, "Комбинированный массив")]
 public class CombArraySolution : ICombArraySolution
 {
     public void Run()

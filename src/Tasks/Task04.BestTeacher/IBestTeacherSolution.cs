@@ -1,6 +1,6 @@
 using Tasks.Common;
 
-namespace Task03.BestTeacher;
+namespace Task04.BestTeacher;
 
 public interface IBestTeacherSolution : ISolution
 {

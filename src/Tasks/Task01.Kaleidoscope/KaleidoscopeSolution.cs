@@ -1,8 +1,8 @@
 using Tasks.Common;
 
-namespace Task07.Kaleidoscope;
+namespace Task01.Kaleidoscope;
 
-[Task(7, "Калейдоскоп")]
+[Task(1, "Калейдоскоп")]
 public class KaleidoscopeSolution : IKaleidoscopeSolution
 {
     // Индексы цветов из ConsoleColor, расположенные по «гармоничному» кругу

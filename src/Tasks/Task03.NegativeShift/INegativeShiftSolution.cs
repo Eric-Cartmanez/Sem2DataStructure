@@ -1,6 +1,6 @@
 using Tasks.Common;
 
-namespace Task05.NegativeShift;
+namespace Task03.NegativeShift;
 
 public interface INegativeShiftSolution : ISolution
 {

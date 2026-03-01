@@ -1,8 +1,8 @@
-using Task05.NegativeShift;
+using Task03.NegativeShift;
 
 namespace Tasks.Tests;
 
-public class Task05NegativeShiftTests
+public class Task03NegativeShiftTests
 {
     public static IEnumerable<object[]> GetSolutions()
     {

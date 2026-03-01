@@ -1,8 +1,8 @@
-using Task07.Kaleidoscope;
+using Task01.Kaleidoscope;
 
 namespace Tasks.Tests;
 
-public class Task07KaleidoscopeTests
+public class Task01KaleidoscopeTests
 {
     private static readonly IKaleidoscopeSolution[] Solutions =
     [
