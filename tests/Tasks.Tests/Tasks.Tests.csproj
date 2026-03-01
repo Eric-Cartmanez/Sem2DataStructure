@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit.v3" Version="3.0.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Tasks\Task02.Nword\Task02.Nword.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task03.BestTeacher\Task03.BestTeacher.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task04.CombArray\Task04.CombArray.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task05.NegativeShift\Task05.NegativeShift.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task06.Find2DArray\Task06.Find2DArray.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task07.Kaleidoscope\Task07.Kaleidoscope.csproj" />
+  </ItemGroup>
+
+</Project>

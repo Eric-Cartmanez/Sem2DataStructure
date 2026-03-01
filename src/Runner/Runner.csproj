@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tasks.Common\Tasks.Common.csproj" />
+    <ProjectReference Include="..\Tasks\Task02.Nword\Task02.Nword.csproj" />
+    <ProjectReference Include="..\Tasks\Task03.BestTeacher\Task03.BestTeacher.csproj" />
+    <ProjectReference Include="..\Tasks\Task04.CombArray\Task04.CombArray.csproj" />
+    <ProjectReference Include="..\Tasks\Task05.NegativeShift\Task05.NegativeShift.csproj" />
+    <ProjectReference Include="..\Tasks\Task06.Find2DArray\Task06.Find2DArray.csproj" />
+    <ProjectReference Include="..\Tasks\Task07.Kaleidoscope\Task07.Kaleidoscope.csproj" />
+  </ItemGroup>
+
+</Project>

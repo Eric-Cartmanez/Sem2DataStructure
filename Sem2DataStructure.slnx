@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Runner/Runner.csproj" />
+    <Project Path="src/Tasks.Common/Tasks.Common.csproj" />
+  </Folder>
+  <Folder Name="/src/Tasks/">
+    <Project Path="src/Tasks/Task02.Nword/Task02.Nword.csproj" />
+    <Project Path="src/Tasks/Task03.BestTeacher/Task03.BestTeacher.csproj" />
+    <Project Path="src/Tasks/Task04.CombArray/Task04.CombArray.csproj" />
+    <Project Path="src/Tasks/Task05.NegativeShift/Task05.NegativeShift.csproj" />
+    <Project Path="src/Tasks/Task06.Find2DArray/Task06.Find2DArray.csproj" />
+    <Project Path="src/Tasks/Task07.Kaleidoscope/Task07.Kaleidoscope.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Tasks.Tests/Tasks.Tests.csproj" />
+  </Folder>
+</Solution>
