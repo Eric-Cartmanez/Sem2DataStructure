@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -26,6 +26,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E56E951-CF40-424A-A573-4AC0DC0A3A27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.Tests", "tests\Tasks.Tests\Tasks.Tests.csproj", "{C078136A-5EAD-4363-B2D5-33A4C4F5A392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task08.ColorfulHouses", "src\Tasks\Task08.ColorfulHouses\Task08.ColorfulHouses.csproj", "{73CFF3B9-9986-4612-86F9-1320AC2C78E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +74,10 @@ Global
 		{C078136A-5EAD-4363-B2D5-33A4C4F5A392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C078136A-5EAD-4363-B2D5-33A4C4F5A392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C078136A-5EAD-4363-B2D5-33A4C4F5A392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CFF3B9-9986-4612-86F9-1320AC2C78E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CFF3B9-9986-4612-86F9-1320AC2C78E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CFF3B9-9986-4612-86F9-1320AC2C78E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CFF3B9-9986-4612-86F9-1320AC2C78E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9AA96A14-7C43-4D13-9A45-B620179B1C36} = {795BAFDB-D758-470D-B255-732ECE359382}
@@ -84,5 +90,6 @@ Global
 		{7417F8DA-F07E-40DF-9CD1-90CFBE69FE9C} = {E130EAB3-2794-4D8D-98CC-60D335F9EBFE}
 		{A947021F-1EA1-4BB0-9AA4-1B22A885F27B} = {E130EAB3-2794-4D8D-98CC-60D335F9EBFE}
 		{C078136A-5EAD-4363-B2D5-33A4C4F5A392} = {2E56E951-CF40-424A-A573-4AC0DC0A3A27}
+		{73CFF3B9-9986-4612-86F9-1320AC2C78E3} = {E130EAB3-2794-4D8D-98CC-60D335F9EBFE}
 	EndGlobalSection
 EndGlobal
