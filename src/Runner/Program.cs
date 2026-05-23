@@ -42,12 +42,11 @@ while (true)
     Console.WriteLine("Выберите задачу (0 — выход):");
     Console.WriteLine();
 
-    for (int i = 0; i < taskGroups.Count; i++)
+    foreach (var group in taskGroups)
     {
-        var group = taskGroups[i];
         var attr = group[0].GetCustomAttribute<TaskAttribute>()!;
         string suffix = group.Count > 1 ? $" [{group.Count} решения]" : "";
-        Console.WriteLine($"  {i + 1,2}. [{attr.Number:D2}] {attr.TaskName}{suffix}");
+        Console.WriteLine($"  {attr.Number,2}. {attr.TaskName}{suffix}");
     }
 
     Console.WriteLine();
@@ -56,10 +55,11 @@ while (true)
     if (!int.TryParse(Console.ReadLine(), out int taskChoice) || taskChoice == 0)
         break;
 
-    if (taskChoice < 1 || taskChoice > taskGroups.Count)
-        continue;
+    var selectedGroup = taskGroups.FirstOrDefault(
+        g => g[0].GetCustomAttribute<TaskAttribute>()!.Number == taskChoice);
 
-    var selectedGroup = taskGroups[taskChoice - 1];
+    if (selectedGroup is null)
+        continue;
     Type selectedType;
 
     if (selectedGroup.Count == 1)
