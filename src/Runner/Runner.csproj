@@ -28,6 +28,7 @@
     <ProjectReference Include="..\Tasks\Task17.DiagonalsArray\Task17.DiagonalsArray.csproj" />
     <ProjectReference Include="..\Tasks\Task18.HanoiTowers\Task18.HanoiTowers.csproj" />
     <ProjectReference Include="..\Tasks\Task19.LongestPath\Task19.LongestPath.csproj" />
+    <ProjectReference Include="..\Tasks\Task20.SearchFiles\Task20.SearchFiles.csproj" />
   </ItemGroup>
 
 </Project>

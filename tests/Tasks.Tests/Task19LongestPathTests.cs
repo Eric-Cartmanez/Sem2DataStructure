@@ -3,6 +3,7 @@ using Task19.LongestPath;
 
 namespace Tasks.Tests;
 
+[Collection(nameof(ConsoleCollection))]
 public class Task19LongestPathTests
 {
     public static IEnumerable<object[]> GetSolutions()
