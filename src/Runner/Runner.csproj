@@ -29,6 +29,14 @@
     <ProjectReference Include="..\Tasks\Task18.HanoiTowers\Task18.HanoiTowers.csproj" />
     <ProjectReference Include="..\Tasks\Task19.LongestPath\Task19.LongestPath.csproj" />
     <ProjectReference Include="..\Tasks\Task20.SearchFiles\Task20.SearchFiles.csproj" />
+    <ProjectReference Include="..\Tasks\Task22.EratosthenesAlgo\Task22.EratosthenesAlgo.csproj" />
+    <ProjectReference Include="..\Tasks\Task23.Settlements\Task23.Settlements.csproj" />
+    <ProjectReference Include="..\Tasks\Task24.UniqueLetter\Task24.UniqueLetter.csproj" />
+    <ProjectReference Include="..\Tasks\Task25.ArithmeticExpressions\Task25.ArithmeticExpressions.csproj" />
+    <ProjectReference Include="..\Tasks\Task26.ComposeWord\Task26.ComposeWord.csproj" />
+    <ProjectReference Include="..\Tasks\Task27.FindPalindrome\Task27.FindPalindrome.csproj" />
+    <ProjectReference Include="..\Tasks\Task28.NextBigNumber\Task28.NextBigNumber.csproj" />
+    <ProjectReference Include="..\Tasks\Task29.BiggestNumber\Task29.BiggestNumber.csproj" />
   </ItemGroup>
 
 </Project>
