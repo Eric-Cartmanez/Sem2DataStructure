@@ -22,6 +22,7 @@ public class Task20SearchFilesTests : IDisposable
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new SearchFilesSolution()];
+        yield return [new SearchFilesAltSolution()];
     }
 
     // ─── CalculateHash: базовые свойства ───────────────────────────────────────────
