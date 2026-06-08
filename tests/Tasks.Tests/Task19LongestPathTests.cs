@@ -9,6 +9,7 @@ public class Task19LongestPathTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new LongestPathSolution()];
+        yield return [new LongestPathAltSolution()];
     }
 
     // ─── Граничные случаи ──────────────────────────────────────────────────────────
